@@ -1,20 +1,20 @@
 Notepad++ syntax highlighting
 -----------------------------
 
-The userDefineLang.xml uses the new User Defined Language system (UDL2),
-which needs Notepad++ v6.2 or higher.
+The `userDefineLang.xml` uses the new User Defined Language system (`UDL2`),
+which needs `Notepad++ v6.2` or higher.
 
 Installing from Notepad++ Installer
 
-  1. Add the contents of userDefineLang.xml at %APPDATA%\Notepad++\userDefineLang.xml
-     between <NotepadPlus> ... </NotepadPlus>
+  1. Add the contents of `userDefineLang.xml` at `%APPDATA%\Notepad++\userDefineLang.xml`
+     between `<NotepadPlus> ... </NotepadPlus>`
   2. Restart Notepad++
 
 Installing from Notepad++ zip/7z package
 
-  1. Given a Notepad++ installation at <DIR>.
-  2. Add the contents of userDefineLang.xml at <DIR>\userDefineLang.xml
-     between <NotepadPlus> ... </NotepadPlus>
+  1. Given a Notepad++ installation at `<DIR>`.
+  2. Add the contents of `userDefineLang.xml` at `<DIR>\userDefineLang.xml`
+     between `<NotepadPlus> ... </NotepadPlus>`
   3. Restart Notepad++
 
 **Reference:**
@@ -24,36 +24,50 @@ Installing from Notepad++ zip/7z package
   3. http://udl20.weebly.com/index.html
 
 
+Notepad++ Function List
+-----------------------
+
+The `functionList.xml` uses the Function List Pane new feature,
+which needs Notepad++ v6.4 or higher.
+
+Installing from Notepad++ Installer
+
+  1. Add the contents of userDefineLang.xml at %APPDATA%\Notepad++\functionList.xml
+     between `<associationMap> ... </associationMap>` and `<parsers> ... </parsers>`
+  2. Restart Notepad++
+
+Installing from Notepad++ zip/7z package
+
+  1. Given a Notepad++ installation at `<DIR>`.
+  2. Add the contents of `functionList.xml` at `<DIR>\functionList.xml`
+     between `<associationMap> ... </associationMap>` and `<parsers> ... </parsers>`
+  3. Restart Notepad++
+
+**Reference:**
+
+  1. http://notepad-plus-plus.org/features/function-list.html
+
+
 Notepad++ keyword auto-completion
 ---------------------------------
 
-  1. Given a Notepad++ installation at <DIR>.
-  2. Copy go.xml to <DIR>\plugins\APIs
+  1. Given a Notepad++ installation at `<DIR>`.
+  2. Copy `go.xml` to `<DIR>\plugins\APIs`
   3. Restart Notepad++
 
 **Reference:**
 
   1. http://sourceforge.net/apps/mediawiki/notepad-plus/index.php?title=Auto_Completion
 
-Notepad++ Function List
------------------------
 
-The functionList.xml uses the Function List Pane new feature,
-which needs Notepad++ v6.4 or higher.
+Screenshots
+-----------
 
-Installing from Notepad++ Installer
+![](https://raw.githubusercontent.com/chai2010/notepadplus-go/master/screenshot.png)
 
-  1. Add the contents of userDefineLang.xml at %APPDATA%\Notepad++\functionList.xml
-     between <associationMap> ... </associationMap> and <parsers> ... </parsers>
-  2. Restart Notepad++
+BUGS
+----
 
-Installing from Notepad++ zip/7z package
+Please report bugs to <chaishushan@gmail.com>.
 
-  1. Given a Notepad++ installation at <DIR>.
-  2. Add the contents of functionList.xml at <DIR>\functionList.xml
-     between <associationMap> ... </associationMap> and <parsers> ... </parsers>
-  3. Restart Notepad++
-
-**Reference:**
-
-  1. http://notepad-plus-plus.org/features/function-list.html
+Thanks!
