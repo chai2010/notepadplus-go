@@ -32,7 +32,7 @@ which needs Notepad++ v6.4 or higher.
 
 Installing from Notepad++ Installer
 
-  1. Add the contents of userDefineLang.xml at %APPDATA%\Notepad++\functionList.xml
+  1. Add the contents of `functionList.xml` at `%APPDATA%\Notepad++\functionList.xml`
      between `<associationMap> ... </associationMap>` and `<parsers> ... </parsers>`
   2. Restart Notepad++
 
