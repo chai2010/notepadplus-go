@@ -1,6 +1,8 @@
 Notepad++ syntax highlighting
 -----------------------------
 
+![screenshot](https://cloud.githubusercontent.com/assets/874234/9234317/d1e190ee-4140-11e5-8d64-afbb0b0c3366.png)
+
 The `userDefineLang.xml` uses the new User Defined Language system (`UDL2`),
 which needs `Notepad++ v6.2` or higher.
 
@@ -58,12 +60,6 @@ Notepad++ keyword auto-completion
 **Reference:**
 
   1. http://sourceforge.net/apps/mediawiki/notepad-plus/index.php?title=Auto_Completion
-
-
-Screenshots
------------
-
-![](https://raw.githubusercontent.com/chai2010/notepadplus-go/master/screenshot.png)
 
 BUGS
 ----
