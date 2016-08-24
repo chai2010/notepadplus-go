@@ -5,9 +5,11 @@
 		<!--
 			if npp version == 6.4:
 			<association ext=".go" id="go"/>
+			<association ext=".s" id="goasm"/>
 
 			if npp version >= 6.5:
 			<association userDefinedLangName="go" id="go"/>
+			<association userDefinedLangName="goasm" id="goasm"/>
 		-->
 
 		<!-- </associationMap> -->
@@ -42,6 +44,17 @@
 						<nameExpr expr="\w+\s*\)"/>
 						<nameExpr expr="\w+"/>
 					</className>
+				</function>
+			</parser>
+
+			<parser id="goasm" displayName="GoAsm" commentExpr="((/\*.*?\*)/|(//.*?$))">
+				<function
+					mainExpr="^TEXT\s+[0-9a-zA-Z_¡¤]+"
+					displayMode="$functionName">
+					<functionName>
+						<nameExpr expr="\s+[0-9a-zA-Z_¡¤]+"/>
+						<nameExpr expr="[0-9a-zA-Z_¡¤]+"/>
+					</functionName>
 				</function>
 			</parser>
 
