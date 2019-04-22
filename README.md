@@ -52,7 +52,7 @@ Notepad++ keyword auto-completion
 ---------------------------------
 
   1. Given a Notepad++ installation at `<DIR>`.
-  2. Copy `go.xml` to `<DIR>\plugins\APIs`
+  2. Copy `go.xml` to the `<DIR>\autoCompletion` directory
   3. Restart Notepad++
 
 **Reference:**
